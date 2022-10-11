@@ -4,13 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content=" I've written apps using HTML, CSS, JavaScript, and Visual Studio Code"
+    />
+    <title>Projects by Viktoriia Shabaieva</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/ee799ebba2.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
@@ -26,11 +34,23 @@
       integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#" id="name">Viktoriia Shabaieva</a>
+        <a
+          class="navbar-brand text-dark link-warning"
+          href="index.html"
+          id="name"
+          >Viktoriia Shabaieva</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -45,22 +65,149 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a
+                class="nav-link text-dark link-warning"
+                aria-current="page"
+                href="index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projectworks.html">Projects</a>
+              <a class="nav-link active fw-semibold" href="projectworks.html"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="certification.html">Сertificates</a>
+              <a
+                class="nav-link text-dark link-warning"
+                href="certification.html"
+                >Certificates</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact me</a>
+              <a class="nav-link text-dark link-warning" href="contact.html"
+                >Contact me</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <div class="container">
+      <h1>SheCodes Projects</h1>
+      <div class="row">
+        <div class="col-md-6 mt-4">
+          <img
+            src="img/CoffeProject.jpg"
+            alt="CoffeProject"
+            class="projectImg img-fluid rounded border-secondary border border-3 ms-1"
+          />
+        </div>
+        <div class="col-md-6">
+          <h2 class="course text-start pt-4 pb-3">SheCodes Basics</h2>
+          <p class="text-start mt-0">
+            In the SheCodes Basics course I learned the basic knowledge of HTML,
+            CSS, JavaScript, and Visual Studio Code. After the workshop, I built
+            a simple landing page using the knowledge I learned.
+          </p>
+          <div class="mt-5 mx-5 px-5">
+            <a
+              href="https://bright-chimera-6da57b.netlify.app/"
+              class="launchApp text-decoration-none text-dark p-3 mx-5 my-0 border-secondary border border-1 rounded link-warning"
+              title="Link Coffe App"
+              target="blank"
+              >Launch Coffee Project</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2 class="course text-end pt-5 pb-3">SheCodes Plus</h2>
+          <p class="text-end mt-0">
+            In the SheCodes Plus course, I got new knowledge about advanced
+            HTML, CSS and responsive design. I learned about Bootstrap,
+            JavaScript, API integration, Code Sandbox, and how to use Git and
+            Github. After the workshop, I created weather app and hosted it on
+            Netlify.
+          </p>
+          <div class="mt-5 mx-5 px-5">
+            <a
+              href="https://celebrated-baklava-46e79e.netlify.app/"
+              class="launchApp text-decoration-none text-dark p-3 mx-5 border-secondary border border-1 rounded link-warning"
+              title="Link Weather App"
+              target="blank"
+              >Launch Weather App</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 mt-5">
+          <img
+            src="img/WeatherApp.png"
+            alt="Weather App"
+            class="projectImg img-fluid rounded border-secondary border border-3 me-2"
+          />
+        </div>
+        <div class="col-md-6 mt-5">
+          <img
+            src="img/WeatherApp2.png"
+            alt="Second WeatherApp"
+            class="projectImg img-fluid rounded border-secondary border border-3 ms-1"
+          />
+        </div>
+        <div class="col-md-6">
+          <h2 class="course text-start pt-5 pb-3">Weather Forecast App</h2>
+          <p class="text-start mt-0">
+            Based on the knowledge gained, I wrote the second weather forecast
+            app. It helped me to practically use my knowledge and improve my
+            coding skills. This application has a different design and working
+            principle.
+          </p>
+          <div class="mt-5 mx-5 px-5">
+            <a
+              href="https://famous-dango-b14b0a.netlify.app/"
+              class="launchApp text-decoration-none text-dark p-3 mx-5 border-secondary border border-1 rounded link-warning"
+              title="Link Weather Forecast"
+              target="blank"
+              >Launch Weather Forecast</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <div class="socialLink">
+            <a
+              href="https://www.instagram.com/vikusya.solnce/"
+              target="blank"
+              title="My Instagram account"
+            >
+              <i class="fa-brands fa-instagram me-4"></i>
+            </a>
+            <a
+              href="mailto:Vikusy.solnce92@gmail.com"
+              target="blank"
+              title="My email"
+            >
+              <i class="fa-regular fa-envelope me-4"> </i></a
+            ><a
+              href="https://www.linkedin.com/in/viktoriia-shabaieva-315196253/"
+              target="blank"
+              title="My Linkedin account"
+              ><i class="fa-brands fa-linkedin-in me-4"></i
+            ></a>
+          </div>
+          <div id="openCode">
+            <a
+              id="gitHub"
+              href="https://github.com/Viktoriia92/Portfolio"
+              target="blank"
+              title="My GitHub account"
+              ><i class="fa-brands fa-github"></i> </a
+            >Open-source code by Viktoriia Shabaieva
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
