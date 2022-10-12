@@ -77,7 +77,14 @@ a :hover {
   font-weight: bolder;
   box-shadow: var(--box-shadow);
 }
-
+.contact-box {
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+}
+h3 {
+  font-size: 34px;
+}
 @media (max-width: 800px) {
   img {
     max-height: 350px;
@@ -89,5 +96,11 @@ a :hover {
     max-height: 200px;
     display: block;
     margin: 0 auto;
+  }
+  #myProjects {
+    font-size: 10px;
+  }
+  #contact-box {
+    display: none;
   }
 }
