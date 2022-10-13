@@ -37,7 +37,7 @@ p {
   font-size: 20px;
   display: block;
   margin: 0 auto;
-  background-color: grey;
+  background-color: transparent;
   box-shadow: var(--box-shadow);
 }
 
@@ -73,12 +73,12 @@ a :hover {
   display: block;
   margin: 0 auto;
   font-size: 18px;
-  background-color: grey;
+  background-color: transparent;
   font-weight: bolder;
   box-shadow: var(--box-shadow);
 }
 .contact-box {
-  background-color: grey;
+  background-color: rgb(168, 168, 168);
   display: flex;
   justify-content: space-around;
 }
@@ -103,4 +103,10 @@ h3 {
   #contact-box {
     display: none;
   }
+}
+.sendButton {
+  background-color: transparent;
+  box-shadow: var(--box-shadow);
+  border: 1px solid grey;
+  font-size: 18px;
 }
